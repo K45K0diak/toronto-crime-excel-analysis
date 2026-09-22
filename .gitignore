@@ -1,0 +1,12 @@
+# Raw data is not committed. Re-download from data.tps.ca.
+# See docs/DATA_SOURCE.md.
+*.csv
+data/
+
+# Excel lock and temporary files
+~$*
+*.tmp
+
+# Windows clutter
+Thumbs.db
+desktop.ini
