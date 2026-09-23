@@ -77,4 +77,6 @@ The largest risers all have 8,000 to 10,400 residents, where a small denominator
 | `docs/DATA_SOURCE.md` | Where the data comes from and how to reproduce it |
 | `queries/`, `docs/dax_measures.md` | The Power Query and DAX code |
 
+Companion project: [Toronto shelter occupancy in PostgreSQL](https://github.com/K45K0diak/toronto-shelter-occupancy-sql) - four normalized tables and six analysis queries, including a schema I designed wrong and corrected after a duplicate-key error showed one building with three operating organisations.
+
 Data: Toronto Police Service Public Safety Data Portal, extract to 30 June 2026. Full limitations in [`docs/limitations.md`](docs/limitations.md).
